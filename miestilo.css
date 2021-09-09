@@ -15,22 +15,23 @@
 
 #elementos {
   background-color:gray;
+  font-size: 6mm;
 }
 
 #contenido1 {
   background-color: gray;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: -37px;
 }
 
 #figure1 {
   background-color: yellow;
  margin-left: 198px;
- margin-top: 1px;
- padding-left: 50px;
+ margin-top: -39px;
+ padding-left: 85px;
  padding-top: 34px;
- padding-bottom: 10px;
+ padding-bottom: 28px;
  margin-right: 0px;
+ 
 }
 
 #figura1f {
@@ -40,9 +41,16 @@
 li {
   background-color: yellow;
   display: inline;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+  max-height: 4px;
 }
 
 aside {
   float: left;
-  height: 730px;
+  height: 729px;
+}
+
+p:only-child {
+  font-size:10mm;
 }
