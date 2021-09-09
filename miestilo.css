@@ -1,23 +1,36 @@
 #cabeceraweb {
-  background-color: chartreuse;
+  background-color: gray;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  padding-top: 4px;
+  padding-left: 400px;
 }
 
 #navegacionprincipal {
-  background-color: rgb(63, 30, 210);
+  background-color: gray;
+ 
+  padding-top: 1px;
+  padding-bottom: 4px;
 }
 
 #elementos {
-  background-color: chartreuse;
+  background-color:gray;
 }
 
 #contenido1 {
-  background-color: yellow;
+  background-color: gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #figure1 {
-  background-color: rgb(0, 60, 255);
- margin-left: 220px;
-
+  background-color: yellow;
+ margin-left: 198px;
+ margin-top: 1px;
+ padding-left: 50px;
+ padding-top: 34px;
+ padding-bottom: 10px;
+ margin-right: 0px;
 }
 
 #figura1f {
@@ -31,5 +44,5 @@ li {
 
 aside {
   float: left;
-  height: 612px;
+  height: 730px;
 }
