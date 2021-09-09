@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="html5, css3, javascript, diseño web, programador ">
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>NF Project</title>
     
      <link rel="stylesheet" href="miestilo.css"/>
@@ -19,10 +19,24 @@
     <body>
     <header id="cabeceraweb">
         <h1><mark>NF Project, Version 1</mark></h1>
+      
+     
+     
+        
     </header>
      <nav id="navegacionprincipal">
       <ul>
-          <li><input type="button"
+       <li>  <button onclick="Iniciar()">Iniciar</button>
+      
+        <script type="text/javascript">
+         function Iniciar(){
+  
+          swal("Bienvenidos","Acompañame en este primer Proyecto (es gratis)","success",{
+          buttons: ["No","Acompañar"]
+         });
+      }
+      </script> </li>
+        <li><input type="button"
             onClick="saludo()" value="¿Que es NF Project"></li>
           <li><input type="button"
             onClick="saludo()" value="Nuestros Servicios"></li>
