@@ -60,7 +60,7 @@ p:only-child {
 
 .flex-container{
    display: flex;
-   flex-wrap: wrap;
+   flex-direction: row;
    background-color: burlywood;
    padding: 10px;
    border: 2px solid black
@@ -68,7 +68,7 @@ p:only-child {
 
 .flex-container div{
   background-color: gainsboro;
-  width: 100px;
+  width: 200px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
