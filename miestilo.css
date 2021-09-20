@@ -1,77 +1,69 @@
-#cabeceraweb {
-  background-color: gray;
-  margin-bottom: 5px;
-  padding-bottom: 2px;
-  padding-top: 4px;
-  padding-left: 400px;
+P  { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
 }
 
-#navegacionprincipal {
-  background-color: gray;
- 
-  padding-top: 1px;
-  padding-bottom: 4px;
+body {
+  background: url("Imagenes/nature.jpg") no-repeat;
+  background-size: cover;
+  font-family: "century gothic", sans-serif;
 }
 
-#elementos {
-  background-color:gray;
-  font-size: 6mm;
+.box {
+width: 500px;
+background: rgba(0,0,0, .4);
+margin: 0 auto;
+margin-top: 4%;
+padding: 20px;
+color: white;
+text-align: center;
+border-radius: 15px;
+
+
 }
 
-#contenido1 {
-  background-color: gray;
-  margin-top: -37px;
+.box h1 {
+  font-size: 40 px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+
 }
 
-#figure1 {
-  background-color: yellow;
- margin-left: 198px;
- margin-top: -39px;
- padding-left: 85px;
- padding-top: 34px;
- padding-bottom: 28px;
- margin-right: 0px;
- 
+.box h2 {
+  font-size: 20px ;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 20px;
+
 }
 
-#figura1f {
-  background-color: rgb(35, 255, 6);
-  padding-top: 10px;
-  margin-top: -16px;
+.box p {
+  border-radius: 50%;
+
 }
 
-li {
-  background-color: yellow;
-  display: inline;
-  padding-bottom: 2px;
-  margin-bottom: 5px;
-  max-height: 4px;
+.box ul {
+  list-style: none;
+  margin-top: 20px;
+
+} 
+
+.box ul li {
+  display: inline-block;
 }
 
-aside {
-  float: left;
-  height: 729px;
+.box ul li a {
+  color: white;
+  font-size: 40px;
+  padding: 10px 5px;
+  margin-right: 30px;
+  padding-right: -50px;
 }
 
-p:only-child {
-  font-size:10mm;
-  
-}
+.box ul li a:hover {
+  color: #b9b9b9;
 
-.flex-container{
-   display: flex;
-   flex-direction: row;
-   background-color: burlywood;
-   padding: 10px;
-   border: 2px solid black
-}
-
-.flex-container div{
-  background-color: gainsboro;
-  width: 200px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  border: 2px solid black;
 }
